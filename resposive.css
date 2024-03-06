@@ -1,0 +1,46 @@
+@media (width > 1439px) {
+    body{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .Mainbox{
+        margin-top: 223px;
+        width: 540px;
+        height: 332px;
+        border-radius: 15px;
+        background: #313A48;
+        box-shadow: 30px 50px 80px 0px rgba(0, 0, 0, 0.10);
+    }
+
+    .Advice{
+        margin-top: 48px;
+        text-align: center;
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-size: 13px;
+        letter-spacing: 4.086px;
+    }
+
+    .Inputtext{
+        width: 444px;
+        text-align: center;
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-size: 28px;
+        letter-spacing: -0.3px;
+    }
+
+    .LinesandPause{
+        top: 244px;
+    }
+
+    .Line{
+        width: 196px;
+        height: 1px;
+    }
+
+    button{
+        top: 300px;
+        left: 238px;
+    }
+}

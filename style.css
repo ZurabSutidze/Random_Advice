@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Manrope";
+    background-color: #202733;
+}
+
+p{
+    user-select: none;
+}
+
+.Mainbox{
+    margin-top: 120px;
+    width: 343px;
+    height: 315px;
+    border-radius: 10px;
+    background:  #313A48;
+    box-shadow: 30px 50px 80px 0px rgba(0, 0, 0, 0.10);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.Advice{
+    color: var(--Neon-Green, #53FFAA);
+    text-align: center;
+    font-family: "Manrope";
+    font-size: 11px;
+    font-weight: 800;
+    letter-spacing: 3.457px;
+    margin-top: 40px;
+}
+
+.Inputtext{
+    height: 160px;
+    width: 295px;
+    color: #CEE3E9;
+    text-align: center;
+    font-family: "Manrope";
+    font-size: 24px;
+    font-weight: 800;
+    letter-spacing: -0.257px;
+    margin-top: 24px;
+    overflow: auto ;
+}
+
+.LinesandPause{
+    top: 235px;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+}
+
+.Line{
+    width: 122px;
+    height: 1px;
+    background: #4F5D74;
+}
+
+button{
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background-color: #53FFAA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    position: absolute;
+    top: 283px;
+    left: 139px;
+    cursor: pointer;
+}
+
+.Blackbox{
+    position: relative;
+    width: 25px;
+    height: 25px;
+    border-radius: 5px;
+    background-color: #202733;
+    padding-top: 6px;
+    padding-left: 6px;
+}
+
+.Circle{
+    width: 4px;
+    height: 4px;
+    background-color: #53FFAA;
+    border-radius: 50%;
+}
+
+.C1{
+    position: absolute;
+    left: 6px;
+    top: 6px;
+}
+
+.C2{
+    position: absolute;
+    right: 6px;
+    top: 6px;
+}
+
+.C3{
+    position: absolute;
+    right: 10.5px;
+    top: 10.5px;
+}
+
+.C4{
+    position: absolute;
+    left: 6px;
+    bottom: 6px;
+}
+
+.C5{
+    position: absolute;
+    right: 6px;
+    bottom: 6px;
+}
+
+.loading {
+    border: 2px solid #f3f3f3;
+    border-top: 2px solid #3498db;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    animation: spin 1s linear infinite;
+}
+
+.Back{
+  background-color: white;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+button:hover{
+  background: linear-gradient(to bottom right,  rgb(27, 92, 47), rgb(165, 233, 168)); 
+}
+
+button:hover .Circle{
+    background: linear-gradient(to bottom right,  rgb(206, 217, 210), rgb(35, 236, 45)); 
+}
+
+
+
+
